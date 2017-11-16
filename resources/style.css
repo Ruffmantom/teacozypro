@@ -54,5 +54,24 @@ body{
   margin: auto;
   width: 1200px;
   font-family: Helvetica;
+}
+/*below this line is all the footer*/
+footer{
+  height: 200px;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  font-family: Helvetica;
+}
+.theteacozy{
+  margin: 0 auto;
 
+}
+.end{
+  color: White
+}
+.end2{
+  color: White;
+  font-family: Helvetica;
+  padding-left: 20px;
 }
