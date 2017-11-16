@@ -1,0 +1,38 @@
+header{
+  display: flex;
+  z-index: 20;
+  top: 0;
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  font-family: Helvetica;
+}
+.logo {
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0.8;
+  height: 50px;
+  padding: 10px 10px;
+}
+header, .nav .N{
+  padding: 0px 4px 0px 4px;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+.N a{
+  color: White;
+  padding-right: 40px;
+}
+header, .nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* under header*/
+body{
+  background-color: black;
+}
