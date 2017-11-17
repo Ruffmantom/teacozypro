@@ -36,10 +36,13 @@ header, .nav{
 /* under header*/
 body{
   background-color: black;
-
 }
 .textbox h2{
   text-decoration: underline;
+  opacity: 0.8;
+}
+.textbox h4{
+  opacity: 0.8;
 }
 .topimg{
   display: flex;
@@ -65,15 +68,17 @@ footer{
   text-align: center;
   width: 100%;
   font-family: Helvetica;
+  opacity: 0.8;
 }
+
 .theteacozy{
   margin: 0 auto;
-
 }
 .end{
   color: White
 }
 .end2{
+  opacity: 0.8;
   color: White;
   font-family: Helvetica;
   padding-left: 20px;
@@ -92,7 +97,6 @@ footer{
 .teapic img{
   height: 200px;
   width: 300px;
-
 }
 .teapic{
   justify-content: space-between;
@@ -101,12 +105,16 @@ footer{
   font-family: Helvetica;
   padding: 10px 10px 10px 10px;
 }
+.teapic h3{
+  opacity: 0.8;
+}
 .headtext{
   text-align: center;
   color: white;
   font-family: Helvetica;
   padding-top: 60px;
   padding-bottom: 30px;
+  opacity: 0.8;
 }
 .headtext h1{
   text-decoration: underline;
@@ -119,8 +127,46 @@ footer{
 
 .twopics .teapic{
   justify-content: space-around;
-  padding: 10px 25px 10px 10px;
+  padding: 10px 23px 10px 10px;
 }
 /*end of second page */
 
 /* start of third page */
+.bkg{
+  height: 500px;
+  width: 1200px;
+  background-image: url(../resources/images/img-locations-background.jpg);
+  text-align: center;
+  margin: 100px auto;
+  font-family: Helvetica;
+  align-content: center;
+}
+.bkg .allthree{
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.bkg .allthree .D{
+  align-content: space-between;
+  margin: auto;
+}
+.bkg h1{
+  padding-top: 50px;
+  color: White;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+.conbox{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+}
+.conbox .D{
+  opacity: 0.8;
+}
