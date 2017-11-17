@@ -38,6 +38,9 @@ body{
   background-color: black;
 
 }
+.textbox h2{
+  text-decoration: underline;
+}
 .topimg{
   display: flex;
   height: 700px;
@@ -75,3 +78,49 @@ footer{
   font-family: Helvetica;
   padding-left: 20px;
 }
+/* second page css*/
+.container2{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.teapic img{
+  height: 200px;
+  width: 300px;
+
+}
+.teapic{
+  justify-content: space-between;
+  color: White;
+  text-align: center;
+  font-family: Helvetica;
+  padding: 10px 10px 10px 10px;
+}
+.headtext{
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.headtext h1{
+  text-decoration: underline;
+}
+
+.twopics{
+  display: flex;
+  justify-content: space-between;
+}
+
+.twopics .teapic{
+  justify-content: space-around;
+  padding: 10px 25px 10px 10px;
+}
+/*end of second page */
+
+/* start of third page */
